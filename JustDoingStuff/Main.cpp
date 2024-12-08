@@ -12,12 +12,20 @@ int main() {
             }
         }
 
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
             
         }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+        }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
+        }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+        }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
+            window.close();
+        }
 
-        window.clear();
-        window.display();
+        
     }
 
     return 0;
